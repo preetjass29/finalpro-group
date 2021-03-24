@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="navbar">
+  <img src="images/logos.png" alt="Logo" width="200" height="80" style="cursor:pointer;" onClick="location.href='main.html'">
+  <div class="navbar-right">
+  <a  href="main.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  
+  <a class="active" href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="about.html"><i class="fa fa-fw fa-question"></i> About</a>
+<a href="menu.html"><i class="fa fa-fw fa-list"></i> Menu</a>
+  <a href="gallery.html"><i class="fa fa-fw fa-image"></i> Gallery</a> 
+    <a class="offers.html" href="#"><i class="fa fa-fw fa-gift"></i> Offers</a>
+    <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+     
+    </form>
+  </div>
+  
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a> 
+
+  
+</div> 
+<div class="sidenav-login">
+
+  <a href="pickups.html">Pickups</a>
+  <a href="orders.html">Orders</a>
+  <a href="contact.html">Location</a>
+   <a href="reviews.html">Reviews</a>
+	<a href="openinghours.html">Opening hours</a>
+	<a href="interior.html">Interior</a>
+</div>
+ </div>
+
+
+<div class="log-form">
+<form  class="log" action="main.html" target="_blank" method="post">
+
+<div class="small-log"><h1><i class="fa fa-user-circle-o" style="font-size:200px";></i></h1></div>
+
+<div class="small-log">
+<h2>Login to your account</h2><br>
+<label for="uname" class="login-label"><b>E-mail address*</b></label>
+  
+  <input type="email" id="email" name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="abc@gmail.com" class="text-size"><br><br>
+  <label for="pwd" class="login-label"><b>Password*</b></label>
+ 
+  <input type="password" id="pwd" name="pwd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"title="abc@gmail.com" class="text-size"><br><br>
+  
+
+  <input type="submit" formtarget="_blank" value="LOGIN" class="login-submit"><br><br><br>
+  <label for="sgnup" class="sgnup-label"> <a href="main.html"><span>Skip Sign in</span></a></label>
+  
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBPmZU5GIVK_6iDzROpMaYgUaqVu4FadlY",
+      authDomain: "fir-web-login-8b7c5.firebaseapp.com",
+      databaseURL: "https://fir-web-login-8b7c5.firebaseio.com",
+      projectId: "fir-web-login-8b7c5",
+      storageBucket: "fir-web-login-8b7c5.appspot.com",
+      messagingSenderId: "301701306998"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+  </div>
+</form>
+
+</div>
+<footer>
+
+   <p>Jaspreet kaur<br>
+  <p>Harneel kaur<br>
+  <p>Navneet kaur<br>
+  <p>Simranpreet kaur<br>
+  <p>Jasandeep singh<br>
+  <a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p></p>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<address>
+577 Boul Henri-Bourassa E, Montréal, QC H2C 1E2<br>
+Canada
+</address>
+</footer>
+</body>
+</html>

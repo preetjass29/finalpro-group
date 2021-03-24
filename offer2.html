@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Icecream</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+	*{
+	box-sizing:border-box;
+	}
+	
+	</style>
+</head>
+<body>
+
+<div class="col-76">
+
+    <div class="pay1">
+	<h3><a  href="offers.html" style="color:#2196F3"> <i class="fa fa-arrow-circle-left" style="font-size:50px" ></i></a></h3>
+	<div class="mid-img">
+	<img src="images/ice.png" alt="Offer1">
+	</div>
+	<div class="down-img">
+	
+
+
+<h4> Icecream</h4>
+<p> Whipped Cream, Butterscotch sauce, Cherries, Peanuts, Cashews  </p>
+
+
+</div></div></div>
+
+<div class="total-row">
+  <div class="col-75">
+    <div class="pay1">
+	
+     <form action="thankyou.html" target="_blank" method="post">
+      
+        <div class="total-row">
+         
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe"  required>
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" pattern="[0-9]{16}" title="1111-2222-3333-4444" required>
+			
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September"  required>
+            <div class="total-row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear"  placeholder="2018" pattern="[0-9]{4}" title="2018" required>
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352" pattern="[0-9]{3}" title="352" required>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+       
+        <input type="submit" value="Make a payment" class="payment-button">
+      </form>
+    </div>
+  </div>
+  
+  <div class="col-25">
+    <div class="small-container">
+      <h4>Order Summary </h4></div>
+      <p> Subtotal <span class="price">$5.00</span></p>
+      <p> Tax <span class="price">$0.50</span></p>
+      <p> Delivery<span class="price1">FREE</span></p>
+      <p> Service fee<span class="price">$2.50</span></p>
+      <hr>
+      <p>Total <span class="price" ><b>$8.00</b></span></p>
+    </div>
+  </div>
+
+
+</body>
+</html>

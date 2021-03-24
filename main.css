@@ -1,0 +1,813 @@
+body{
+	background-color:black;
+	background-repeat: no-repeat;
+	color: white;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	
+}
+/*....................Navigation bar (menu bar).................................................................*/
+.navbar-right {
+  float: right;
+}
+
+.navbar {
+  width: 100%;
+  overflow: auto;
+ margin: auto;
+}
+
+.navbar a {
+  float: left;
+  right: 50px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+.navbar a:hover {
+  background-color: gray;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }}
+  
+.navbar a:active {
+  background: linear-gradient(90deg, rgba(180,58,108,0.8580474426098564) 0%, rgba(253,129,29,0.8776552857471114) 36%, rgba(252,176,69,1) 100%);
+}
+.active{
+	 background-image: linear-gradient(to bottom right, purple,red);
+	 border-radius:10px;
+}
+.navbar .search-container {
+	  margin-top:0px;
+      float: left;
+     display:inline-block;
+}
+.navbar img{
+	border-radius: 10px;
+}
+/*........................................................................................................................................*/
+/*............................Side Navigation main page.....................................................*/
+.sidenav {
+	border-radius: 10px;
+   margin-top:50px;
+	margin-left:1050px;
+   margin-right:0px;
+  width: 10%;
+  height:60%;
+  position: fixed;
+  z-index: 1;
+  background: rgb(180,58,108);
+  background: linear-gradient(90deg, rgba(180,58,108,0.8580474426098564) 0%, rgba(253,129,29,0.8776552857471114) 36%, rgba(252,176,69,1) 100%);
+  overflow-x: hidden;
+}
+.sidenav a{
+	text-align:left;
+}
+.sidenav a:hover {
+  color: #064579;
+}
+/*...........................................................................................................................................*/
+/*...................................Main page Slides.............................................................................*/
+.slideshow .mySlides{
+	 border-radius: 25px;
+  border: 2px #4d5761 ;
+}
+.slideshow .mySlides{
+	
+	width:800px;
+	height:400px;
+	 margin-bottom:10px;
+    margin-top: 20px;
+     padding: 40px;
+     float:left;
+}
+/*........................................................................................................................................*/
+/*......................................Contact Page.................................................................................*/
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="checkbox"]{
+font-style: normal;
+
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+
+.container {
+	width:40%;
+	margin-top: 20px;
+    border-radius: 5px;
+    background-color: #21D4FD;
+   background-image: linear-gradient(to bottom right, purple,red);
+   color: white;
+    padding: 40px;
+   font-weight: normal;
+   margin-bottom:10px;
+   float:right;
+}
+ .maps{
+	margin-top:20px;
+	float:left;
+}
+/*.....................................................................................................................................*/
+/*....................................................About Us Page........................................................................*/
+.row{
+	border-radius:12px;
+	margin-top:15px;
+	margin-bottom:10px;
+	background: linear-gradient(to bottom, #ff6600 0%, #ff99ff 100%);
+	border:2px solid;
+}
+.row .column {
+	margin-left:15px;
+   float: left;
+  width: 30.3%;
+   margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+	 border-radius:12px;
+     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+     margin: 8px;
+}
+.card .img{
+	width:300px;
+	height:300px;
+	
+}
+.des p{
+	width:60%;
+	text-align:left;
+	margin:10px;
+}
+.des{
+	margin-top:0px;
+}
+
+.des iframe{
+	float:right;
+	margin:10px;
+}
+.containerabout {
+  padding: 0 16px;
+}
+
+.containerabout::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*..................................................................................................................................*/
+/*...................................................Menu Page......................................................................*/
+.items{
+	
+	
+}
+.row1{
+	width:80%;
+	float:right;
+	border-radius:12px;
+	margin-top:15px;
+	margin-bottom:10px;
+	background-color: #a55c1b;
+background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+	border:2px solid;
+	
+	
+}
+.row1 .column1 {
+	margin-left:15px;
+   float: left;
+  width: 20%;
+   margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+	   border-radius:12px;
+       box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+       margin: 8px;
+}
+.card1 .img{
+	width:200px;
+	height:200px;
+	
+}
+.sidebar1 {
+	float:left;
+  height: wrap;
+  width: 160px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+background-color: #a55c1b;
+background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+  overflow-x: hidden;
+  padding-top: 16px;
+  padding-bottom:16px;
+  margin-top:40px;
+ border:2px solid ;
+ border-radius:10px;
+}
+
+.sidebar1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar1 a:hover {
+  color: #f1f1f1;
+}
+/*..................................................................................................................................*/
+/*........................................................Reviews Page..............................................................*/
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+.fa {
+  font-size: 25px;
+}
+.checked {
+  color: orange;
+}
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+.right {
+  text-align: right;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+.butns #bt{
+	margin-right:40px;	
+}
+/*................................................................................................................................*/
+.subtomain{
+	border:1px solid;
+	 right: 50px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+	background:green;
+}
+
+*/
+table {
+  width:100%;
+}
+table, th, td {
+  border: 3px solid;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}*/
+/*...............Opening Hours................................................*/
+.days{
+ background-image: linear-gradient(to bottom right, purple,red);
+	
+}
+
+/*.........................................................................................*/
+/*....................Orders page*........................................*/
+.orders1
+{
+background-image: linear-gradient(to bottom right, purple,red);
+
+}
+/*.........................................................................*/
+/*.................Pizza Page............................................................................................*/
+.order{
+width:33%;
+	margin-top: 18px;
+  border-radius: 5px;
+    background-color: #a55c1b;
+ background-image: linear-gradient(to bottom right, purple,red);
+color: white;
+  padding: 20px;
+  font-weight: normal;
+  margin-bottom:10px;
+  float:right;
+  position:relative;
+  margin-right:0px;
+}
+
+.piz {
+margin-top:20px;
+	float:left;
+	
+	}
+
+/*.......................................Login Page...............................................................................*/
+
+.sidenav-login {
+	border-radius: 10px;
+   margin-top:100px;
+	margin-right:1050px;
+   margin-left:40px;
+  width: 10%;
+  height:60%;
+  position: absolute;
+  z-index: 1;
+  background: rgb(180,58,108);
+  background: linear-gradient(90deg, rgba(180,58,108,0.8580474426098564) 0%, rgba(253,129,29,0.8776552857471114) 36%, rgba(252,176,69,1) 100%);
+  overflow-x: hidden;
+   
+  
+}
+.sidenav-login a{
+	text-align:left;
+}
+
+
+.sidenav-login a:hover {
+  color: #064579;
+}
+
+
+.log-form{
+	
+	border:2px solid white;
+	width:1000px;
+	margin-left:200px;
+	margin-top:80px;
+	
+	
+}
+.small-log{
+	
+	display: inline-block;
+	margin-left:60px;
+	width:400px;
+	margin-bottom:-10px;
+	
+}
+.small-log h1{
+	
+	float:right;
+	margin-right:10px;
+	border-right: 2px solid blue;
+	width:300px;
+	height:280px;
+	}
+.log {
+	background-image: linear-gradient(to bottom right, purple,red);
+	width:100%;
+	height:380px;;
+}
+.login-label{
+	margin-left:20px;
+	font-size:20px;
+}
+.text-size{
+	height:40px;
+	width: 100%;
+	border: 2px solid blue;
+	margin-left:20px;
+	}
+.log-form h2{
+	margin-top:0px;
+	text-align:center;
+	}
+.login-submit{
+	width:87%;
+	height:40px;
+	margin-left:20px;
+	margin-top:20px;
+	background-color:purple;
+	color:white;
+	font-size:20px;
+	text-align:center;
+  cursor: pointer;
+	
+}
+.login-submit:hover{
+	background-color:blue;
+	
+}
+
+.sgnup-label{
+	margin-left:180px;
+	margin-top:400px;
+	
+}
+
+.sgnup-label span{
+	color: orange;
+	
+}
+.sgnup-label a:hover{
+	font-size:20px;
+	
+}
+/*.............................................................................................................................    */
+/*...................................GalleryPage...............................................................................................................................*/
+ .gallrow{
+	  margin-top:30px;
+	margin-left:70px;
+ }
+  .gallrow img{
+	  width: 230px;
+	  padding: 10px;
+	  
+	  
+  }
+  .gallrow img:hover{
+	  transform: scale(1.1);
+  }
+/* .............................................................*/
+/*............IMAGE POSITIONING*/
+
+.position-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*.....................................*/
+
+/*offers..................................................................................................................................*/
+
+.sidenavoffer {
+	border-radius: 10px;
+   margin-top:50px;
+	margin-left:1050px;
+   margin-right:0px;
+  width: 10%;
+  height:60%;
+  position: absolute;
+  z-index: 1;
+  background: rgb(180,58,108);
+  background: linear-gradient(90deg, rgba(180,58,108,0.8580474426098564) 0%, rgba(253,129,29,0.8776552857471114) 36%, rgba(252,176,69,1) 100%);
+  overflow-x: hidden;
+   
+  
+}
+.sidenavoffer a{
+	text-align:left;
+}
+
+
+.sidenavoffer a:hover {
+  color: #064579;
+}
+.offers-img .offers-myimg{
+	 border-radius: 25px;
+  border: 2px #4d5761 ;
+}
+
+
+.offers-img .offers-myimg{
+	
+	width:800px;
+	height:400px;
+	 margin-bottom:10px;
+    margin-top: 20px;
+     padding: 40px;
+     float:left; 
+}
+
+
+.offers-horiz1{
+	width:100%;
+	float:left;
+	border-radius:10px;
+	margin-top:15px;
+	margin-bottom:10px;
+	background-color: #a55c1b;
+	 background-image: linear-gradient(to bottom right, purple,red);
+	border: 2px solid white;
+	
+}
+.offers-horiz1 .offers-vert1 {
+	margin-left:20px;
+   float: left;
+  width: 29%;
+  padding: 0 8px;
+}
+
+.offers-vty1 {
+	   border-radius:12px;
+       box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+       margin: 8px;
+}
+.offers-vty1 .img{
+	width:200px;
+	height:200px;
+	
+}
+
+.offers-box1 {
+ margin-top:-3px;
+  border:2px solid white;
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+  cursor:pointer;
+}
+.offers-box1:hover{
+	font-size:150%;
+}
+.offers-first{
+	color:#740814;
+	font-size:25px;
+	background-color:white;
+	text-shadow: 2px 2px 5px black;
+	border-radius:30px;
+	padding:2px;
+	text-align: center;
+}
+
+.offers-box1 h4{
+	text-align: center;
+}
+/*....................................................*/
+/*.................................................offer1,2,3...........................................................*/
+
+.fa fa-arrow-circle-left{
+	}
+.col-76{
+	width:1200px;
+	margin-left:20px;
+	margin-bottom:6px;	
+}
+.pay1 {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border-radius: 10px;
+   border: 2px solid white;
+   background-image: linear-gradient(to bottom right, purple,red);
+}
+.mid-img{
+	width: 300px;
+	height:200px;
+	margin-left:450px;
+}
+.mid-img img{
+	width: 280px;
+	height:190px;
+}
+.down-img{
+color: white;
+}
+.down-img h4{
+	text-align: center;
+	text-shadow:2px 2px 5px black;
+}
+.down-img p{
+	text-align: center;
+}
+.cont3 h4{
+background-image: linear-gradient(to bottom right, purple,red);
+color:white;
+}
+.total-row {
+	margin-top:10px;
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin-right:5px;
+  margin-left:-15px;
+}
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+  border: 2px solid white;
+   background-image: linear-gradient(to bottom right, purple,red);
+   color: white;
+   border-radius:10px;
+   
+}
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+  color: white;
+}
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 70%;
+
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+.small-container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  margin-left:-15px;
+  border-radius: 3px;
+   background-image: linear-gradient(to bottom right, purple,red);
+}
+.col-50 input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.col-50 label {
+  margin-bottom: 10px;
+  display: block;
+}
+.cards-icon {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+.payment-button {
+  background-color: purple;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.payment-button:hover {
+  background-color: orange;
+}
+hr {
+  border: 1px solid lightgrey;
+}
+span.price {
+  float: right;
+  color: white;
+}
+span.price1 {
+  float: right;
+  color: white;
+  text-shadow:2px 2px 5px black;
+}
+/*...............................................................................................*/
+/*..................Pickup Page...................................................................*/
+.pickup1{
+	border:2px solid red;
+	 background: linear-gradient(to bottom, #ff0066 0%, #ff3300 100%);
+	 height:580px;
+}
+.pickup1 img{
+	height:100px;
+	width: 100px;
+	border:2px solid blue;
+	margin-left:570px;
+	margin-top:50px;
+}
+.pickup1 h1{
+	text-align: center;
+	color: white;
+	text-shadow:2px 2px 5px black;
+}
+.pickup1 p{
+	text-align: center;
+	color: white;
+	text-shadow:2px 2px 5px black;
+	font-size:20px;
+}
+.pickup1 h3{
+	margin-left:510px;
+	color:blue;
+}
+.pickup1 h3:hover{
+	font-size: 150%;
+}
+/*............................................................................................................................*/
+/*Thankyou................................................................................................................................*/
+.thank1{
+	border:2px solid red;
+	 background: linear-gradient(to bottom, #ff0066 0%, #ff3300 100%);
+	 height:580px;
+}
+.thank1 img{
+	height:100px;
+	width: 100px;
+	border:2px solid blue;
+	margin-left:570px;
+	margin-top:50px;
+}
+.thank1 h1{
+	text-align: center;
+	color: white;
+	text-shadow:2px 2px 5px black;
+}
+.thank1 p{
+	text-align: center;
+	color: white;
+	text-shadow:2px 2px 5px black;
+	font-size:20px;
+}
+.thank1 h3{
+	margin-left:550px;
+	color:blue;
+}
+.thank1 h3:hover{
+	font-size: 150%;
+}
+/*..................................................................................*/
+/*.............................Footer..................................................*/
+footer {
+   border-radius: 10px;
+   width:100%;
+   text-align: center;
+   padding: 3px;
+   background: rgb(180,58,108);
+   background: linear-gradient(90deg, rgba(180,58,108,0.8580474426098564) 0%, rgba(253,129,29,0.8776552857471114) 36%, rgba(252,176,69,1) 100%);
+   color: white;
+   clear: both;
+   position: relative;
+   height: 250px;
+   margin-top: 100px;
+}
+footer.p{
+	font-size:25px;
+	text-decoration:bold;
+}
+footer .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+footer .fa:hover {
+    opacity: 0.7;
+}
+footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+footer .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+/**......................................................................................................................./
